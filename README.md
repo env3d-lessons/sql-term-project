@@ -17,6 +17,7 @@ Here are some ideas:
   - **Pokedex Dataset** (Pokemon, items, location, etc.): You can
   choose to focus on a subset of the dataset, and also add new simple feature such
   as a player owning a set of pokemons
+  - **Real Time Game** (Similar to the SIMPLE DOOM game we created in class)
   - **Library System** (Books, Authors, Borrowers)
   - **Student Management** (Students, Courses, Enrollments)
   - **E-commerce Store** (Customers, Orders, Products)
@@ -28,6 +29,8 @@ Your database should model real-world relationships, including:
   - **One-to-Many Relationships** (e.g., one author writes many books)
   - **Many-to-Many Relationships** (e.g., students enroll in multiple courses,
   and courses have multiple students)
+  - Contains clearly documented **strong entities**, **weak entities**, **relationship**, **cardinality**, and **attributes**.
+  - Documentation should be in the form of an **ER-diagram**.
 
 ### 2. Database Design
 Create an ER diagram or write a brief description of your tables and their
@@ -45,29 +48,14 @@ Implement basic CRUD operations:
   - **Update**: Modify existing records
   - **Delete**: Remove records while maintaining data integrity
 
-### 4. Command-Line Interface (CLI)
-Your application should include a simple CLI for users to:
+### 4. User Interface (Web, graphical, or CLI)
+Your application should include a simple UI for users to:
 
   1. Add new records
   2. View records
   3. Update existing records
   4. Delete records
   5. Exit the application
-
-### 5. Implement a Search Feature
-
-  - Allow users to search for records using at least **one meaningful filter**
-  (e.g., find all books by a certain author, all courses a student is enrolled in, etc.).
-
-### 6. Data Validation
-
-  - Ensure user input is valid (e.g., prevent negative ages, enforce required fields).
-
-### 7. Extra Challenge
-
-  - If you want additional experience or challenge, feel free to implement your
-  CRUD app on the web via fastapi and uvicorn as per
-  https://github.com/env3d-lessons/sql-crud/blob/main/README2.md
 
 ## Example Database Schema (Student Management System)
 
